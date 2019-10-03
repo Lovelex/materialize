@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/materialize.min.css">
+  <title>Badges</title>
+  <style>
+    nav .badge {
+      position: relative;
+      top: 20px;
+      right: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="nav-wrapper indigo">
+    <div class="container">
+      <a href="#" class="brand-logo">Site Title</a>
+      <a href="#" data-target="mobile-links" class="sidenav-trigger hide-on-large-only">
+        <i class="material-icons">menu</i>
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li class="waves-effect waves-light"><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#" class="btn-floating indigo darken-4 z-depth-0">
+          <i class="material-icons">notifications</i>
+        </a></li>
+        <li><span class="badge white-text pink new">5</span></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-links">
+      <li><a href="#" class="waves-effect waves-dark">Home</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Contato</a></li>
+  </ul>
+
+  <script src="./assets/js/jquery-3.4.1.min.js"></script>
+  <script src="./assets/js/materialize.min.js"></script>
+
+</body>
+  
+</html>

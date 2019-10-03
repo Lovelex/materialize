@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/materialize.min.css">
+  <title>Modal</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Modal</h2>
+
+    <a href="#termos" class="btn orange modal-trigger">Termos e condições</a>
+    <div class="modal" id="termos">
+      <div class="modal-content">
+        <h4>Termos e condições</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque amet natus sunt quam sed cupiditate est
+          dolorem, temporibus ipsum, exercitationem officiis dolorum incidunt alias praesentium placeat eum! Nulla,
+          assumenda natus?
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="#" class="modal-close btn orange">Aceito</a>
+      </div>
+    </div>
+  </div>
+  <script src="./assets/js/jquery-3.4.1.min.js"></script>
+  <script src="./assets/js/materialize.min.js"></script>
+
+  <script>
+    $(document).ready(() => {
+      $('.modal').modal()
+    })
+  </script>
+
+</body>
+
+</html>
